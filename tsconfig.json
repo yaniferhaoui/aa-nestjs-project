@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+
+    "moduleResolution": "Node",
+    "noUnusedParameters": true,
+    "importHelpers": true,
+
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "Es2022"],
+    "noImplicitAny": false,
+    "module": "ESNext",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "strict": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.js"], // Include only your source files
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"]
+}
