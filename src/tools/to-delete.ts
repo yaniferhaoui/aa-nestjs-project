@@ -1,0 +1,1 @@
+export const BLEAP_COSIGNER_PRIVATE_KEY = process.env.BLEAP_COSIGNER_PRIVATE_KEY!;

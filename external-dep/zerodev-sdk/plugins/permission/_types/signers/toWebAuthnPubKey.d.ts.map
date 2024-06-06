@@ -1,0 +1,1 @@
+{"version":3,"file":"toWebAuthnPubKey.d.ts","sourceRoot":"","sources":["../../signers/toWebAuthnPubKey.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,uBAAuB,CAAA;AAGxD,oBAAY,YAAY;IACpB,QAAQ,aAAa;IACrB,KAAK,UAAU;CAClB;AAED,eAAO,MAAM,gBAAgB;iBAKZ,MAAM;sBACD,MAAM;UAClB,YAAY;MAClB,QAAQ,WAAW,CAsItB,CAAA"}

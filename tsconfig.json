@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "es2022",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2022",
+    "moduleResolution": "Node",
+
+
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": false,  // Disable strict mode
+    "strictNullChecks": false,  // Disable strict null checks
+    "noImplicitAny": false,  // Allow implicit any
+    "strictBindCallApply": false,  // Disable strict function binding
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "external-dep", "**/*.spec.ts"]
+}
